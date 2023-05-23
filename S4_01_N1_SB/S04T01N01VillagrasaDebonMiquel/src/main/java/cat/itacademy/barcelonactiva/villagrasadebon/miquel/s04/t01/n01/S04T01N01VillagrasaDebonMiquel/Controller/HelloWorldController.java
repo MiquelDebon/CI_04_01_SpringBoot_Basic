@@ -27,6 +27,7 @@ public class HelloWorldController {
         return "greeting";
     }
 
+
     @GetMapping({"/HelloWorld2", "/HelloWorld2/{name}"})
     public String saluda2(@PathVariable(name="name", required=false) String name, Model model){
         //http://localhost:9000/HelloWorld2
