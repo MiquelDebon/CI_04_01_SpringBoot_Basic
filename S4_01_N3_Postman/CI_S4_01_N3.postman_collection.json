@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "2924002d-bb9c-4dd4-85b7-92ed97866e43",
+		"name": "CI_S4_01_N3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27225226"
+	},
+	"item": [
+		{
+			"name": "Maven_Miquel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}{{port}}/HelloWorld?name=Miquel",
+					"host": [
+						"{{server}}{{port}}"
+					],
+					"path": [
+						"HelloWorld"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Miquel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Maven_Generic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}{{port}}/HelloWorld",
+					"host": [
+						"{{server}}{{port}}"
+					],
+					"path": [
+						"HelloWorld"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Grandle_Miquel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}{{port}}/HelloWorld?name=Miquel",
+					"host": [
+						"{{server}}{{port}}"
+					],
+					"path": [
+						"HelloWorld"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Miquel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Grandle_Generic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}{{port}}/HelloWorld",
+					"host": [
+						"{{server}}{{port}}"
+					],
+					"path": [
+						"HelloWorld"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
