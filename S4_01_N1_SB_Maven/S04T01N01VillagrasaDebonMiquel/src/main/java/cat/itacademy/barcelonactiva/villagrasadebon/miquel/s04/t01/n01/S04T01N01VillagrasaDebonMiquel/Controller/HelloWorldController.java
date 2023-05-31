@@ -35,10 +35,5 @@ public class HelloWorldController {
         model.addAttribute("name", name);
         return "greeting";
     }
-
-
-
-
-
-
+    
 }
